@@ -2,11 +2,11 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, Download, Github, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import workspace from '@/assets/workspace.jpg';
 import community from '@/assets/community.jpg';
 import events from '@/assets/events.jpg';
 import records from '@/assets/records.jpg';
 import cv from '@/assets/cv.asset.json';
+import portrait from '@/assets/sinalo-portrait.jpg.asset.json';
 
 export const Route = createFileRoute('/')({
   head: () => ({ meta: [
@@ -56,7 +56,7 @@ function Portfolio() {
           <p className="portfolio-intro">I bring people, projects and ideas together — supporting events, digital communication and the details that keep everything moving.</p>
           <div className="portfolio-actions"><Button asChild variant="portfolio"><a href="mailto:mvosinalo@gmail.com">Email me <ArrowUpRight aria-hidden="true" /></a></Button><CVButton /></div>
         </div>
-        <img className="portfolio-hero-image portfolio-rise" src={workspace} width={1024} height={1280} alt="A bright communications workspace with a notebook, social media planning and coffee" fetchPriority="high" />
+        <img className="portfolio-hero-image portfolio-rise" src={portrait.url} width={1024} height={1280} alt="Sinalo Mvo smiling outdoors, wearing a black dress" fetchPriority="high" />
       </section>
       <section id="about" className="portfolio-section"><div className="portfolio-about">
         <h2 className="portfolio-heading">About me</h2>
