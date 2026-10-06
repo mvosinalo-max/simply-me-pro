@@ -4,6 +4,7 @@ import { ArrowUpRight, Download, Github, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import community from '@/assets/community.jpg';
 import events from '@/assets/events.jpg';
+import records from '@/assets/records.jpg';
 import cv from '@/assets/cv.asset.json';
 import portrait from '@/assets/sinalo-portrait.jpg.asset.json';
 
