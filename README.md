@@ -1,6 +1,22 @@
-# Welcome to your Lovable project
+# Sinalo Mvo — Professional Portfolio
 
 This project was built with [Lovable](https://lovable.dev).
+
+## Submission
+
+- Portfolio: https://simply-me-pro.lovable.app
+- Included sections: introduction, about, technical and soft skills, three experience-based case studies, work experience, education, certifications and contact.
+- CV: the original uploaded résumé is downloadable from the website.
+- GitHub profile and additional certifications are not yet supplied; the website does not fabricate them.
+- Project images are illustrative, not photographs of Sinalo's actual work.
+
+## Repository and hosting
+
+Connect this project to GitHub through Lovable's GitHub connection to create your own repository. No repository was created automatically by this source delivery.
+
+The easiest hosting option is Lovable's Publish flow. This is a TanStack Start application, not a static GitHub Pages site. Other hosting providers require a compatible TanStack Start/Nitro deployment configuration; do not upload source files directly to GitHub Pages.
+
+The CV pointer uses Lovable-hosted asset resolution. For independent hosting, supply your CV at a public URL and update the asset pointer URL accordingly.
 
 ## Build with Lovable
 
