@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        portfolio: "portfolio-button portfolio-button-primary",
+        "portfolio-outline": "portfolio-button portfolio-button-outline",
+        "portfolio-nav": "portfolio-nav-link",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
